@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./static/css/bulma.min.css">
+    <link rel="stylesheet" href="./static/css/style.css">
+</head>
+<body>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+              <div class="navbar-brand">
+                <a class="navbar-item" href="https://bulma.io">
+                  DailyNews
+                </a>
+
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                  <span aria-hidden="true"></span>
+                </a>
+              </div>
+
+              <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                  <a class="navbar-item">
+                    Главная
+                  </a>
+
+                  <a class="navbar-item">
+                    Новости
+                  </a>
+
+                  <div class="navbar-item has-dropdown is-hoverable">
+                    <a class="navbar-link">
+                      Больше
+                    </a>
+
+                    <div class="navbar-dropdown">
+                      <a class="navbar-item">
+                        Выход
+                      </a>
+                      <a class="navbar-item is-selected">
+                        Jobs
+                      </a>
+                      <a class="navbar-item">
+                        Contact
+                      </a>
+                      <hr class="navbar-divider">
+                      <a class="navbar-item">
+                        Report an issue
+                      </a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="navbar-end">
+                  <div class="navbar-item">
+                    <div class="buttons">
+                      <a class="button is-primary">
+                        <strong>Регистрация</strong>
+                      </a>
+                      <a class="button is-light">
+                        Вход
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </nav>
+
+    <main>
+        <section class="block">
+            <div class="container">
+                <nav class="breadcrumb has-arrow-separator" aria-label="breadcrumbs">
+                  <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li class="is-active"><a href="#" aria-current="page">Все новости</a></li>
+                  </ul>
+                </nav>
+                <h1 class="title"> Все новости </h1>
+                <div class="card-row">
+                    <div class="card" id="card">
+                          <div class="card-content">
+                              <img src="https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1lvMMn.img" alt="">
+                            <div class="content">
+                                <h3>Когда выйдет iOS 18 для iPhone и что нового в ней будет</h3>
+                                iOS 18: дата выхода, поддерживаемые устройства, новые...
+                            </div>
+                              <a href="#" class="button is-primary">Читать</a>
+                          </div>
+                        </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    </body>
+</html>
